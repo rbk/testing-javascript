@@ -1,14 +1,18 @@
 {
   "name": "01-getting-started",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "url" : "https://github.com/rbk/testing-javascript/issues",
+  "homepage": "https://blog.richardkeller.net/how-to-unit-test-your-javascript-code/",
+  "description": "Repository for example code associated with a blog post.",
+  "license" : "None",
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
     "test": "mocha"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.2.1"

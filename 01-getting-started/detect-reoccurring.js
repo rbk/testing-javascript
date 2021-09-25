@@ -1,6 +1,6 @@
 const detectReoccurring = (text) => {
 	if (text.match('daily')) {
-		return 'daily';	
+		return true;
 	}
     return false;
 }
